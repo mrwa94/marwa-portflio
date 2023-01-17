@@ -1,19 +1,92 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Sidebar from './compontes/Sidebar';
+import Home from './compontes/Pages/Home.js';
+import Logo from './compontes/Logo.js'
+import About from './compontes/Pages/About.js';
+import Portflio from './compontes/Pages/Portflio.js';
+import Services from './compontes/Pages/Services.js';
+import Contact from './compontes/Pages/Contact.js';
+import {  Routes, Route, Link  } from 'react-router-dom';
+import { Col, Row , Container } from 'react-bootstrap';
+
 
 
 
 
 function App() {
   return (
-    <div className="">
-    <Sidebar/>
+    <Row>
+      <Col lg="4">
+          <div className='Sidebar'>
+             <div className='container'>
+                  <div className='row'>
+                        <Logo/>
+
+        <ui className ="">
+        
+          <il>
+          <Link  className='nav-link px-2'
+            to='/'> HOME</Link>
+          </il>
+
+          <il>
+            <Link className='nav-link px-2' 
+             to='/about'> ABOUT ME</Link>
+          </il>
+
+          <il>
+           <Link   className='nav-link px-2'  
+           to = '/portflio'> Portflio </Link>
+          </il>
+
+          <il>
+            <Link  className='nav-link px-2' 
+             to='/services'> SERVICES</Link>
+          </il>
+
+          <il>
+            <Link className='nav-link px-2'  
+            to='/contact'> CONTACT ME</Link>
+          </il>
+        </ui>   
+      </div>
+      </div>
+      </div>
+      </Col>
+
+      <Col>
+       <Routes>
+            <Route path='/'     
+                  element = {<Home/>}     />
+            <Route path='/about'  
+                element = {<About/>}    />
+            <Route path='/portflio'   
+               element = {<Portflio/>}    />
+            <Route path='/services'  
+             element = {<Services/>} />
+            <Route path='/contact'   
+             element = {<Contact/>}  /> 
+         </Routes>
+     </Col>
+  </Row>
 
 
-     
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
   );
 }
 

@@ -1,10 +1,10 @@
 
 import React from 'react'
-import image from '../images/logo.png'
+import image from '../compontes/images/logo.png'
 export default function logo() {
   return (
     <div>
-        <img src={image}></img>   
+        <img  className='logo' src={image}></img>   
     </div>
 
   )
