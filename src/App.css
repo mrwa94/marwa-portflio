@@ -4,6 +4,7 @@
 :root{
   --primary-color  : #243735 ;
   --secondry-color : #D8DA8E ;
+  --other-color : #3F5654 ;
   --primary-font: 'Tai Heritage Pro', serif;
 }
 
@@ -11,8 +12,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
+
+/*------------------------ sidebar div ---------------------------------------- */
 .Sidebar{
   width: 80%;
   height: 100vh;
@@ -40,66 +44,158 @@ ui{
 }
 
 
-a{
+.a-sidebar{
   margin-bottom: 20px;
   text-align: center;
    width: 80%;
 
 }
 
-a:hover{
+.a-sidebar:hover{
 
   border-bottom: 10px solid var(--secondry-color);
   cursor: pointer;
 
 }
-a:focus{
+.a-sidebar:focus{
 
   border-bottom: 10px solid var(--secondry-color);
 
 }
 
-.home{
-  margin-right: 0%;
-
+.title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: var(--primary-color);
+margin-top: 10%;
 }
 
+/* ------------------------primart button ------------------------------ */
 .btn-primary {
-width: 200px;
-height: 50px;
-background: #D8DA8E;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: none;
-border-radius: 30px;
+width: 200px !important;
+height: 50px !important;
+background: #D8DA8E !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border: none !important; 
+border-radius: 30px !important;
+font-size: 20px !important;
+font-weight: bold !important;
+text-decoration: none !important;
 color: white;
-font-size: 20px;
-font-weight: bold;
+}
+.btn-primary:hover{
+  color: var(--other-color) !important;
+
+}
+.primary-link:hover{
+  border: none !important;
 }
 
+/*---------------------------Home div ---------------------------------------*/
 .home{
   text-align: center;
+  margin-top: 20%;
 }
 
 .title-home{
   font-size: 30px;
   font-weight: lighter;
   text-align: left;
-
-
+  padding-left: 10%;
 
 }
 .marwa-class{
-  color: var(--primary-color);
+  color: #3F5654  ;
   font-size: 90px;
 }
 
-.home-paragraph{
-
-  
+.sub-title-home{
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 
+/* --------------------------- About div -------------------------- */
 
+.about-button{
+  margin: 15px;
+  padding: 20px;
+}
+
+.about-body{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+}
+
+.about-list{
+  margin: 5px;
+
+}
+
+
+/* -------------------------- portflio div --------------------------  */
+
+/*--------------------------  serveices div --------------------------  */
+
+/* -------------------------- contact me div -------------------------- */
+.contact-header{
+  text-align: center;
+
+}
+.contact-img{
+  width: 60px;
+  margin: 20px;
+  
+
+}
+.contact-img:hover{
+  border-radius: 50%;
+  width: 65px;
+  box-shadow: -5px 5px 5px 5px rgb(187, 187, 187, 0.3);
+}
+
+.contact-link:hover{
+  background-color: var(--secondry-color);
+  
+
+}
+
+Form{
+  
+  width: 60%;
+  padding: 30px;
+  margin-left: 5%;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  color: var(--other-color);
+  
+}
+
+Form.Control{
+ border-color: var(--other-color) !important;
+}
+
+.message{
+  height: 150px;
+  width: 100%;
+  border: 12px 12px var(--other-color) !important;
+  border-radius: 9px;
+  outline: none;
+  padding: 5px;
+}
+
+.message:hover{
+  border-color: var(--primary-color) !important;
+
+
+
+}
+
+/* *********responsive to differnte screen  *******************/
 @media (max-width : 970px) {
  .Sidebar{
   font-size: 15px;

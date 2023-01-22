@@ -26,27 +26,27 @@ function App() {
         <ui className ="">
         
           <il>
-          <Link  className='nav-link px-2'
+          <Link  className='nav-link px-2 a-sidebar' 
             to='/'> HOME</Link>
           </il>
 
           <il>
-            <Link className='nav-link px-2' 
+            <Link className='nav-link px-2 a-sidebar' 
              to='/about'> ABOUT ME</Link>
           </il>
 
           <il>
-           <Link   className='nav-link px-2'  
-           to = '/portflio'> Portflio </Link>
+           <Link   className='nav-link px-2 a-sidebar'  
+           to = '/services'> SERVICES  </Link>
           </il>
 
           <il>
-            <Link  className='nav-link px-2' 
-             to='/services'> SERVICES</Link>
+            <Link  className='nav-link px-2 a-sidebar' 
+             to='/portflio'>  PORTFLIO</Link>
           </il>
 
           <il>
-            <Link className='nav-link px-2'  
+            <Link className='nav-link px-2 a-sidebar'  
             to='/contact'> CONTACT ME</Link>
           </il>
         </ui>   
