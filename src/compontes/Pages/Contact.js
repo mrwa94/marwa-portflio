@@ -29,22 +29,22 @@ export default function Contact() {
       
       <ui className ="contact-header">
       <il>
-        <a className='contact-link' href=''>
+        <a className='contact-link' href='https://github.com/mrwa94'>
           <img className='contact-img'src={gmail}  alt='contactt'/>
         </a>
       </il>
       <il>
-      <a className=' ' href='https://www.linkedin.com/in/mrwa94'>
+      <a  href='https://www.linkedin.com/in/mrwa94'>
           <img className='contact-img'src={linkedin} alt ="linkedin"  />
         </a>
       </il>
       <il>
-      <a className=' ' href='https://github.com/mrwa94'>
+      <a  href='https://github.com/mrwa94'>
           <img className='contact-img'src={github} alt ="github"/>
         </a>
       </il>
       <il>
-      <a className='' href='https://twitter.com/94_mrwa' >
+      <a  href='https://twitter.com/94_mrwa' >
           <img className='contact-img'src={twitter}  alt='contact'/>
         </a>
       </il>
