@@ -2,7 +2,7 @@
 import React from 'react';
 import {Card ,CardGroup , Carousel  } from 'react-bootstrap';
 import img1 from '../images/twitter.png';
-import img2 from '../images/twitter.png';
+// import img2 from '../images/twitter.png';
 
 
 export default function Portflio() {
