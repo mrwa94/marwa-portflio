@@ -18,7 +18,7 @@ export default function Portflio() {
       <Card className='card'>
         <Card.Body>
           <Card.Title>UX / UI design</Card.Title>
-          <img variant="top" src={img1} className ="img-thumbnail contact-img" />
+          <img variant="top" src={img1} className ="img-thumbnail contact-img" alt='uxx' />
           </Card.Body>
          </Card>
         
@@ -29,7 +29,7 @@ export default function Portflio() {
       <Card className='card'>
         <Card.Body>
           <Card.Title>UX / UI design</Card.Title>
-          <img variant="top" src={img1} className ="img-thumbnail contact-img" />
+          <img variant="top" src={img1} className ="img-thumbnail contact-img"alt='uiii' />
           </Card.Body>
          </Card>
       </Carousel.Item>
@@ -38,7 +38,7 @@ export default function Portflio() {
       <Card className='card'>
         <Card.Body>
           <Card.Title>UX / UI design</Card.Title>
-          <img variant="top" src={img1} className ="img-thumbnail contact-img" />
+          <img variant="top" src={img1} className ="img-thumbnail contact-img"  alt='ux'/>
           </Card.Body>
          </Card>
       </Carousel.Item>

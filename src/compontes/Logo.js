@@ -6,8 +6,8 @@ export default function logo() {
     <div>
         <img  className='logo'
          src={image}
-         alt = 'Profile image '
-         ></img>   
+         alt = 'Profile  '
+         />  
     </div>
 
   )

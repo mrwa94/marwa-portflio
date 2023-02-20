@@ -15,7 +15,7 @@ export default function Services() {
       <Card className='card'>
         <Card.Body>
           <Card.Title>UX / UI design</Card.Title>
-          <img variant="top" src={ux} className ="img-thumbnail " />
+          <img variant="top" src={ux} className ="img-thumbnail " alt='ui' />
           </Card.Body>
          </Card>
 
@@ -23,7 +23,7 @@ export default function Services() {
       <Card className='card'>
         <Card.Body>
           <Card.Title>ios swift developer</Card.Title>
-          <img variant="top" src={ios} className ="img-thumbnail" />
+          <img variant="top" src={ios} className ="img-thumbnail" alt='ios' />
           </Card.Body>
          </Card>
 
@@ -31,7 +31,7 @@ export default function Services() {
       <Card className='card'>
         <Card.Body>
           <Card.Title className=''>Front end developer</Card.Title>
-          <img variant="top" src={react} className ="img-thumbnail" />
+          <img variant="top" src={react} className ="img-thumbnail" alt='react' />
           </Card.Body>
          </Card> 
     </CardGroup> 
